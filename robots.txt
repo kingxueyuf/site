@@ -1,0 +1,4 @@
+Sitemap: http://robin-xueyufan.com/sitemap.xml
+
+User-agent: *
+Disallow: 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>swiper 3d</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	
+	<style type="text/css" media="screen">
+		
+	</style>
+</head>
+<body>
+	<div class="swiper-container" id="swiper-container">
+<img src="images/arrow.png"  id="array" class="resize"> 
+	     <div class="swiper-wrapper"> 
+		     <div class="swiper-slide p1">
+				<img src="/lpbb/images/05.jpg" class="Img1" alt="">
+		     </div> 
+		     <div class="swiper-slide p2">
+				<img src="/lpbb/images/01.jpg" class="Img2" alt="">
+		     </div>
+		     <div class="swiper-slide p3">
+				<img src="/lpbb/images/04.jpg" class="Img2" alt="">
+			</div> 
+		     <div class="swiper-slide p4">
+		     	<img src="/lpbb/images/06.jpg" class="Img2" alt="">
+		     </div>
+		     <div class="swiper-slide p5">
+				<img src="/lpbb/images/11.jpg" class="Img2" alt="">
+			</div>
+		     <div class="swiper-slide p6">
+		     	<img src="/lpbb/images/12.jpg" class="Img2" alt="">
+		     </div>
+		     <div class="swiper-slide p7">
+		     	<img src="/lpbb/images/23.jpg" class="Img2" alt="">
+		     </div>
+		     <div class="swiper-slide p7">
+		     	<img src="/lpbb/images/29.jpg" class="Img2" alt="">
+		     </div>
+		     <div class="swiper-slide p7">
+		     	<img src="/lpbb/images/32.jpg" class="Img2" alt="">
+		     </div>
+	     </div>
+	    <div class="swiper-pagination"></div>
+    <div class="music">
+    <i class="icon-music open" num="1"></i>
+    <i class="music-span"></i>
+    <audio id="aud" src="images/wodenvren.mp3"  loop="loop" autoplay="autoplay"></audio>
+    <div class="music_text">开启</div>
+</div></div> 
+<script src="js/imagePreloading.js" type="text/javascript" charset="utf-8"></script>
+<script language="javascript"> 
+	var mySwiper = new Swiper('.swiper-container',{
+		pagination: '.swiper-pagination',
+   		direction : 'vertical',
+		effect : 'fade',
+		//   cube: {
+		//   slideShadows: true,
+		//   shadow: true,
+		//   shadowOffset: 100,
+		//   shadowScale: 0.6
+		// }
+	})
+</script>
+</body>
+</html>

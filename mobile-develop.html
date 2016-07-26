@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>robin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      body {
+        /*padding-top: 20px;*/
+/*        padding-bottom: 60px;*/
+          color: #5a5a5a;
+      }
+
+
+      /* header*/
+      .header{
+        padding-top: 0px;
+        height: auto;
+        background: #040915;
+      }
+      .header h3{
+        margin: 0 auto;
+        max-width: 1000px;
+        letter-spacing: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 50px 0;
+        text-align: center;
+      }
+      .jumbotron h2 {
+        font-size: 60px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+     /* Featurettes
+      ------------------------- */
+
+      .featurette-divider {
+        margin: 40px 0; /* Space out the Bootstrap <hr> more */
+      }
+      .featurette {
+        padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+        overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      }
+      .featurette-image {
+        margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      }
+
+      /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+      .featurette-image.pull-left {
+        margin-right: 40px;
+      }
+      .featurette-image.pull-right {
+        margin-left: 40px;
+      }
+
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -1px;
+      }
+
+      .project-des{
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+      .my-header{
+        margin-left:15px;
+
+      }
+
+            /* footer */
+      .footer {
+        background: #040915;
+        padding-bottom: 60px;
+      }
+
+      .footer a  {
+          color: #dbe4ea;
+          line-height: 1.5;
+          font-size: 100%;
+          /*text-decoration: none;*/
+          /*font-family: 'proxima-nova';*/
+/*'proxima-nova','Proxima Nova','Helvetica Neue','Helvetica,sans-serif';*/
+      }
+
+      .footer h5  {
+          letter-spacing: 0;
+          color: #fff;
+          font-size: 14px;
+          padding-top: 40px;
+          margin: 0 0 10px;
+          text-transform: uppercase;
+          font-weight: 600;
+      }
+
+
+    </style>
+     <link href="http://v2.bootcss.com/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="header">
+       <h3 class="muted">Robin Home</h3>
+    </div>
+    <br>
+
+    <div class="container">
+
+      <div class="masthead">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="web-develop.html">Web Development</a></li>
+                <li class="active"><a href="#">Mobile Development</a></li>
+                <li><a href="ai.html">Artificial Intelligence</a></li>
+                <li><a href="http://robin-xueyufan.bugs3.com/wordpress/">Blog</a></li>
+                <li><a href="http://www.linkedin.com/pub/yufan-xue/7b/12b/571">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+          <h2>{ loveAndroid(true) }</h2>
+      </div>
+
+      <hr>
+      <!-- Example row of columns -->
+     <div class="row-fluid">
+        <div class="span12">
+          <h2 class="heading">
+            1) Baidu Map micro-task App
+            <a href="">(download and try)</a>
+          </h2>
+          <h4 class="my-header">Overview:</h4>
+          <img src="pic1/micromap.jpg"/>
+          <br>
+          <br>
+          <h4 class="my-header">Features:</h4>
+          <div class="project-des">
+            <p>
+              <div class="alert alert-info">
+                  <span class="badge badge-warning">1</span>&nbsp;&nbsp;An app used by users to fix map-data by submit right address and photo<br>
+                  <span class="badge badge-warning">2</span>&nbsp;&nbsp;Use <strong>SQL lite</strong> to store user data<br>
+                  <span class="badge badge-warning">3</span>&nbsp;&nbsp;Use <strong>LRU Cache</strong> algorithm to cache bitmap like photos<br>
+                  <span class="badge badge-warning">4</span>&nbsp;&nbsp;Use <strong>Muti-thread</strong> to request data from web-serviece<br>
+                  <span class="badge badge-warning">5</span>&nbsp;&nbsp;High performance interaction with User Interface.<br>
+              </div> 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      
+      <div class="row-fluid">
+            <div class="span12">
+              <h2 class="heading">
+                2) Bluetooth-SignIn App
+                <a href="867511_exc_1.apk">(download and try)</a>
+              </h2>
+              <h4 class="my-header">Overview:</h4>
+              <img src="pic1/bluetooth.jpg"/>
+              <br>
+              <br>
+              <h4 class="my-header">Features:</h4>
+              <div class="project-des">
+                <p>
+                  <div class="alert alert-info">
+                      <span class="badge badge-warning">1</span>&nbsp;&nbsp;An app used by teacher at SCUEC for student to sign in their course<br>
+                      <span class="badge badge-warning">2</span>&nbsp;&nbsp;Complex UI framework and <strong>multi-thread architecture</strong> with <strong> memory management</strong><br>
+                      <span class="badge badge-warning">3</span>&nbsp;&nbsp;Use <strong>SQLite</strong> to cache data from web-service.<br>
+                  </div> 
+                </p>
+              </div>
+            </div>
+      </div>
+
+      <hr>
+    </div> <!-- /container -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fabcafc93cebc7d206f865f85cfb44d88' type='text/javascript'%3E%3C/script%3E"));
+</script>
+         <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="span3">
+                            <h5>Link</h5>
+                            <a href="http://developer.android.com/index.html" target="_blank">Android Developer</a><br>
+                            <a href="http://docs.oracle.com/javase/6/docs/api/">Java api</a><br>
+                            <a href="http://www.w3schools.com/">W3C school</a><br>
+                        </div>
+                        <div class="span3">
+                          <h5>About</h5>
+                          <a href="http://robin-xueyufan.bugs3.com/wordpress/?page_id=2">About Robin</a> <br>
+                        </div>
+                        <div class="span3">
+                          <h5>Community</h5>
+                          <a href="http://robin-xueyufan.bugs3.com/wordpress/">Blog</a> <br>
+                          <a href="http://www.linkedin.com/pub/yufan-xue/7b/12b/571">LinkedIn</a><br>
+                          <a href="https://www.facebook.com/robin.xueyufan">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+            
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
