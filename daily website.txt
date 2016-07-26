@@ -9,3 +9,7 @@ P@$$w0rd14
 FTP Port	21
 
 u572456793
+
+Ftp.smarterasp.net
+robin
+password*8
